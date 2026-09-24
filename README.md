@@ -27,9 +27,9 @@ Check a download with `apksigner verify --print-certs QuestProCameraService.apk`
 
 ## Use
 
-Press **Start**. The headset display pauses for a moment while the service attaches to the cameras. The app can then be closed; the service keeps running until you press **Stop** or reboot.
+Press **Start**. The app can then be closed or left running in the background; the service keeps running until you press **Stop** or reboot.
 
-The cameras only produce frames while face tracking is active, for example Virtual Desktop with face tracking on. Until then the app shows "Waiting for camera frames".
+The cameras only produce frames while face tracking is active, for example Virtual Desktop or Steam Link with face tracking on and focused. Until then the app shows "Waiting for camera frames".
 
 Streams are served on port 27280 of the headset's IP. The app shows the address.
 
